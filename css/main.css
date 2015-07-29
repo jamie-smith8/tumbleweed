@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background-color: rgba(168, 123, 79, .5);
+    height: 100vh;
+    
+    -webkit-animation: fade-in 2s linear;
+    animation: fade-in 2s linear;
+}
+
+.clouds {
+    width: auto;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+}
+
+.main-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 56vh;
+    padding-top: 10vh;
+    z-index: 1;
+    position: absolute;
+}
+
+.sub-header {
+    margin: 0;
+    padding-left: 8vw;
+    padding-top: 5vh;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.icons {
+    width: 15%;
+    opacity: .2;
+    margin: 4.5%;
+    position: relative;
+    top: 88%;
+}
+
+
+
+@-webkit-keyframes fade-in {
+    0% {
+        background-color: white;
+        opacity: 1;
+    }
+    
+    
+    100% {
+        background-color: rgba(168, 123, 79, 1);
+        opacity: .5;
+    }
+    
+    
+}
+
+@keyframes fade-in {
+    0% {
+        background-color: white;
+        opacity: 1;
+    }
+    
+    
+    100% {
+        background-color: rgba(168, 123, 79, 1);
+        opacity: .5;
+    }
+    
+    
+}
